@@ -69,12 +69,12 @@
 &pinctrl {
 	i2c0_custom: i2c0_custom {
 		group1 {
-			pinmux = <I2C0_SDA_P4>;
+			pinmux = <I2C0_SDA_P6>;
 			input-enable;
 		};
 
 		group2 {
-			pinmux = <I2C0_SCL_P5>;
+			pinmux = <I2C0_SCL_P7>;
 			input-enable;
 		};
 	};
