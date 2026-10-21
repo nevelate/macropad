@@ -2,7 +2,7 @@
 
 &pinctrl {
 	ws2812_pio0_default: ws2812_pio0_default {
-		ws2812 {
+		led_strip {
 			pinmux = <PIO0_P27>;
 		};
 	};
@@ -19,7 +19,6 @@
 		bit-waveform = <3>, <3>, <4>;
 
 		led_strip: ws2812 {
-			status = "okay";
 			gpios = <&gpio0 27 GPIO_ACTIVE_HIGH>;
 			chain-length = <8>;
 			color-mapping = <LED_COLOR_ID_GREEN
