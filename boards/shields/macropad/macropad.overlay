@@ -9,7 +9,6 @@
 / {
     chosen {
         zmk,physical-layout = &default_layout;
-        zmk,underglow = &led_strip;
     };
 
     kscan0: kscan0 {
