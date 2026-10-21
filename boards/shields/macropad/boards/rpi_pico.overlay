@@ -6,6 +6,14 @@
     };
 };
 
+&pinctrl {
+	ws2812_pio0_default: ws2812_pio0_default {
+		ws2812 {
+			pinmux = <PIO0_P16>;
+		};
+	};
+};
+
 &pio0 {
 	status = "okay";
 
