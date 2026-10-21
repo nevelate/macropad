@@ -1,0 +1,11 @@
+if SHIELD_MACROPAD
+
+config ZMK_KEYBOARD_NAME
+    default "macropad"
+
+config ZMK_USB
+	default y
+
+config I2C
+	default y
+endif
