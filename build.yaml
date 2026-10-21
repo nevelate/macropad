@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: rpi_pico
+  - board: waveshare_rp2040_zero
     shield: macropad
