@@ -8,4 +8,8 @@ config ZMK_USB
 
 config I2C
 	default y
+
+config ZMK_POINTING
+    default y
+
 endif
