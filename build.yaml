@@ -21,3 +21,5 @@
 include:
   - board: rpi_pico
     shield: macropad
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
