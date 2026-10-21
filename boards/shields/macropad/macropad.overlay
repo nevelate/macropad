@@ -54,14 +54,14 @@
     };
 };
 
-&i2c0 {
+&i2c1 {
 	status = "okay";
 	pinctrl-0 = <&i2c1_custom>;
 	pinctrl-names = "default";
 	clock-frequency = <I2C_BITRATE_STANDARD>;
 
 	as5600: as5600@36 {
-		compatible = "ams,as5600";
+		compatible = "zmk,input-ams-as5600";
 		status = "okay";
 		reg = <0x36>;
 	};
