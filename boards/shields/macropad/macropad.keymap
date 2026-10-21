@@ -13,7 +13,7 @@
         default_layer {
             bindings = <
                 // Row 0
-                &sys_reset
+                &studio_unlock
                 // Row 1
                 &bootloader
                 // Row 2

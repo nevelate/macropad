@@ -9,6 +9,7 @@
 / {
     chosen {
         zmk,physical-layout = &default_layout;
+        zephyr,console = &cdc_acm_uart0;
     };
 
     kscan0: kscan0 {
@@ -80,6 +81,14 @@
 	};
 };
 
-zephyr_udc0: &usbd {
+&zephyr_udc0 {
+    status = "okay";
+
+	cdc_acm_uart0: cdc_acm_uart0 {
+		compatible = "zephyr,cdc-acm-uart";
+	};
+};
+
+&usbd {
     status = "okay";
 };
