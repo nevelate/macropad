@@ -12,26 +12,26 @@
         default_layer {
             bindings = <
                 // Row 0
-                &lt 1 LC(V)
+                &kp LC(V)
                 // Row 1
                 &kp LC(C)
                 // Row 2
                 &kp C_PREV   &kp C_PLAY_PAUSE   &kp C_NEXT
                 // Row 3
-                &kp LS(LALT)  &kp LC(LS(ESC)   &kp LGUI
+                &kp LS(LALT)  &kp LC(LS(ESC)   &lt 1 LGUI
             >;
         };
 
         fn_layer {
             bindings = <
                 // Row 0
-                &none
+                &studio_unlock
                 // Row 1
-                &none
+                &bootloader
                 // Row 2
-                &none   &none   &studio_unlock
+                &none   &none   &none
                 // Row 3
-                &none   &none   &bootloader
+                &none   &none   &none
             >;
         };
     };
