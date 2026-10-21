@@ -18,4 +18,4 @@ features:
   - encoder
 
 requires:
-  - waveshare_rp2040_zero
+  - rpi_pico
