@@ -11,6 +11,7 @@
     chosen {
         zmk,physical-layout = &default_layout;
         zephyr,console = &cdc_acm_uart0;
+        zmk,underglow = &led_strip;
     };
 
     kscan0: kscan0 {
